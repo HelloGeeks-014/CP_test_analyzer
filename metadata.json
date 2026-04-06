@@ -1,0 +1,5 @@
+{
+  "name": "CP Stress Test Analyzer",
+  "description": "Analyze competitive programming problems and solutions to find failing test cases and diagnose logic flaws.",
+  "requestFramePermissions": []
+}
