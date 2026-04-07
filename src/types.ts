@@ -4,6 +4,7 @@ export interface AnalysisResult {
   userOutput: string;
   diagnosis: string;
   generatorCode: string;
+  language: string;
 }
 
 export interface AnalysisInput {
