@@ -128,7 +128,7 @@ export default function App() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-2 px-3 py-1 bg-[#0d1117] border border-[#30363d] rounded text-[10px] font-mono text-[#8b949e]">
             <Activity className="w-3 h-3 text-[#3fb950]" />
-            <span>GEMINI_3.1_PRO_ACTIVE</span>
+            <span>GEMINI_FLASH_LATEST</span>
           </div>
           <div className="flex items-center gap-2">
             <Settings className="w-4 h-4 text-[#8b949e] hover:text-[#c9d1d9] cursor-pointer" />
