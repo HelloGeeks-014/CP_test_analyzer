@@ -16,7 +16,7 @@ const genAI = new GoogleGenerativeAI(apiKey || "");
 export async function analyzeStressTest(input: AnalysisInput): Promise<AnalysisResult> {
   // Using gemini-1.5-flash for the best balance of speed and CP logic reasoning
   const model = genAI.getGenerativeModel({
-    model: "gemini-2.5-flash",
+    model: "gemini-flash-latest",
     generationConfig: {
       responseMimeType: "application/json",
     },
