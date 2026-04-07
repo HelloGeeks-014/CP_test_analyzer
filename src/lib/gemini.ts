@@ -13,7 +13,7 @@ if (!apiKey) {
 
 const genAI = new GoogleGenerativeAI(apiKey || "");
 
-export async function analyzeStressTest(input: AnalysisInput): Promise<AnalysisResult> {
+export async function analyzeStressTest(input: any): Promise<AnalysisResult> {
   // Using gemini-1.5-flash for the best balance of speed and CP logic reasoning
   const model = genAI.getGenerativeModel({
     model: "gemini-flash-latest",
